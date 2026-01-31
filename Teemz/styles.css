@@ -43,9 +43,7 @@ body {
     transform: translateX(-50%);
     z-index: 2;
     padding: 8px 16px;
-    background: rgba(0, 0, 0, 0.45);
     border-radius: 8px;
-    backdrop-filter: blur(6px);
 }
 
 .countdown {
@@ -59,17 +57,17 @@ body {
 .countdown-item {
     display: inline-block;
     margin: 0 10px;
+    text-align: center;
 }
 
 .countdown-item span {
     display: block;
-    font-size: 94px;
+    font-size: 120px;
     font-weight: 900;
     color: #ffffff;
     line-height: 1;
     letter-spacing: 3px;
-    text-transform: uppercase;
-}
+    text-transform: uppercase;    text-shadow: 0 0 10px rgba(0,0,0,0.8);}
 
 .countdown-item p {
     font-size: 14px;
@@ -78,4 +76,5 @@ body {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 400;
+    box-shadow: #000000 0px 2px 4px;
 }
